@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+// Setting: ${1:Name}.
+\$wp_customize->add_setting( '${2:prefix}_${3:id}', array(
+	'type'                 => '${4:theme_mod}${5:option}',
+	'default'              => '${6:default}',
+	'transport'            => '${7:refresh}${8:postMessage}', // Options: refresh or postMessage.
+	'capability'           => '${9:edit_theme_options}',
+	'sanitize_callback'    => '${10:}',${11: // esc_attr, esc_textarea, absint, esc_url_raw, sanitize_hex_color, wp_strip_all_tags, wp_filter_nohtml_kses }
+	${12:'sanitize_js_callback' => '', // Basically to_json.}
+	${13:'theme_supports' 		=> '', // Optional. This can be used to hide a setting if the theme lacks support for a specific feature (using add_theme_support).}
+) );
+${14:}
+]]></content>
+<!-- Optional: Description to show in the menu -->
+    <description>WP Customizer Add Setting</description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	 <tabTrigger>npwpcustomizeraddsetting</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php - variable.other.php</scope>
+</snippet>

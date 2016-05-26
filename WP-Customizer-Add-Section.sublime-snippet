@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+// Section: ${1:Name}.
+\$wp_customize->add_section( '${2:prefix}_section_${3:id}', array(
+	'priority'       => ${4:160},
+	'panel'          => '${2:prefix}_panel_${5:id}',
+	'title'          => __( '${6n:Section Title}', '${7:TEXT_DOMAIN}' ),
+	'description'    => __( '${8:Section Description.}', '${7:TEXT_DOMAIN}' ),
+	'capability'     => '${9:edit_theme_options}',
+	${10:'active_callback'=> '', // is_front_page}
+	${11:'theme_supports' => '',}
+) );
+${12:}
+]]></content>
+<!-- Optional: Description to show in the menu -->
+    <description>WP Customizer Add Section</description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	 <tabTrigger>npwpcustomizeraddsection</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php - variable.other.php</scope>
+</snippet>

@@ -1,0 +1,28 @@
+<snippet>
+	<content><![CDATA[
+// Customize function.
+if ( ! function_exists( '${1:PREFIX}_customize_${2:name_panel_section}' ) ) {
+	// Customize Register action.
+	add_action( 'customize_register', '${1:PREFIX}_customize_${2:name_panel_section}' );
+
+	/**
+	 * Customize: ${3:Panel}.
+	 *
+	 * ${4:Customize function.}
+	 *
+	 * @param  object WP_Customize $wp_customize Instance of the WP_Customize_Manager class.
+	 * @since  ${5:1.0.0}
+	 */
+	function ${1:PREFIX}_customize_${2:name_panel_section}( $wp_customize ) {
+		${6:}
+	}
+}
+${7:}
+]]></content>
+<!-- Optional: Description to show in the menu -->
+    <description>WP Customize Register Function</description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	 <tabTrigger>npwpcustomizerregisterfunction</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php - variable.other.php</scope>
+</snippet>
