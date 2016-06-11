@@ -1,0 +1,8 @@
+# Sublime-WP-Customizer
+=======================
+
+## Version 1.0.3
+
+- UUPDATE: ReadMe updated
+- NEW: Package Control Messages
+
