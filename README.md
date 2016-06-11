@@ -99,6 +99,11 @@ $ git clone https://github.com/ahmadawais/Sublime-WP-Customizer.git WP-Customize
 
 ### Changelog
 
+#### Version 1.0.2
+
+- ReadMe updated
+- Small Snippet bug fixes in WP Customize Register Function 
+
 #### Version 1.0.1
 
 - Package Control Support
