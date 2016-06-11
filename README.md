@@ -7,7 +7,7 @@ Sublime snippets for WordPress Customizer.
 ```
 WordPress Version: 4.6.0
 Snippets: 09
-Version: 1.0.1
+Version: 1.0.2
 ```
 
 ## Snippets
