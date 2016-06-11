@@ -40,9 +40,7 @@ You can do a fuzzy search inside PHP or JS file with initials of the snippets' n
 
 WP Customize snippets are meant to bring ease to your workflow. All you have to do is select a snippet and then press `tab` button to go from one editable area to another. E.g.
 
-![WP Customizer Snippets](https://i.imgur.com/nmNhiiF.gif)
-
-![WP Customizer Snippets](http://g.recordit.co/l6h3gS3czi.gif)
+![WP Customizer Snippets](https://raw.githubusercontent.com/ahmadawais/Sublime-WP-Customizer/master/the.gif)
 
 ### Optional Tip
 
