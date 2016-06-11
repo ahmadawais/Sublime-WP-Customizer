@@ -7,30 +7,42 @@ Sublime snippets for WordPress Customizer.
 ```
 WordPress Version: 4.6.0
 Snippets: 09
+Version: 1.0.1
 ```
 
 ## Snippets
 
-To make the snippets unique, this package uses `np` prefix which is the fuzzy search for `Snippet`.
+1. Snippet: WP Customize Add Pannel 
+    * Tab trigger: `wpCustomizerAddPanel`
+2. Snippet: WP Customize Add Section 
+    * Tab trigger: `wpCustomizerAddSection`
+3. Snippet: WP Customize Add Setting 
+    *   Tab trigger: `wpCustomizerAddSetting`
+4. Snippet: WP Customize Add Control Basic 
+    * Tab trigger: `wpCustomizerAddControlBasic`
+5. Snippet: WP Customize Add Control Image 
+    * Tab trigger: `wpCustomizerAddControlImage`
+6. Snippet: WP Customize Add Control Upload 
+    * Tab trigger: `wpCustomizerAddControlUpload`
+7. Snippet: WP Customize Add Control Color 
+    * Tab trigger: `wpCustomizerAddControlColor`
+8. Snippet: WP Customize postMessage JS Basic 
+    * Tab trigger: `wpCustomizerPostMessageJSBasic`
+9. Snippet: WP Customize Register Function
+    * Tab trigger: `wpCustomizerRegisterFunction`
 
-- Snippet: WP Customize Add Pannel `Tab trigger: npwpcapannel`
-- Snippet: WP Customize Add Section `Tab trigger: npwpcasection`
-- Snippet: WP Customize Add Setting `Tab trigger: npwpcaseting`
-- Snippet: WP Customize Add Control Basic `Tab trigger: npwpcacontrolbasic`
-- Snippet: WP Customize Add Control Image `Tab trigger: npwpcacontrolimage`
-- Snippet: WP Customize Add Control Upload `Tab trigger: npwpcacontrolupload`
-- Snippet: WP Customize Add Control Color `Tab trigger: npwpcacontrolcolor`
-- Snippet: WP Customize postMessage JS Basic `Tab trigger: npwpcpostMessageJSBasic`
 
 ### Tab Triggers
 
-You can do a fuzzy search inside PHP or JS file with initials of the snippets' names. E.g. To add a `WP Customizer Add Pannel` you can just type `npwpcap` and Sublime will suggest the snippet.
+You can do a fuzzy search inside PHP or JS file with initials of the snippets' names. E.g. To add a `WP Customizer Add Pannel` you can just type `wpcap` and Sublime will suggest the snippet. If that doesn't happen read the optional tip below. You can also open Package Control's Command Pallet: `Command+Shift+P`  on Mac `Ctrl+Shift+P` on Windows or Linux and search for these snippets.
 
 ### How to use the snippets?
 
 WP Customize snippets are meant to bring ease to your workflow. All you have to do is select a snippet and then press `tab` button to go from one editable area to another. E.g.
 
 ![WP Customizer Snippets](https://i.imgur.com/nmNhiiF.gif)
+
+![WP Customizer Snippets](http://g.recordit.co/l6h3gS3czi.gif)
 
 ### Optional Tip
 
@@ -87,6 +99,17 @@ $ git clone https://github.com/ahmadawais/Sublime-WP-Customizer.git WP-Customize
 - Sublime Text 2 `C:\Users\%username%\AppData\Roaming\Sublime Text 2\Packages`
 - Sublime Text 3 `C:\Users\%username%\AppData\Roaming\Sublime Text 3\Packages`
 
+### Changelog
+
+#### Version 1.0.1
+
+- Package Control Support
+- New Snippet: WP Customize Register Function 
+
+#### Version 1.0.0
+
+- First version
+- Snippets 8
 
 ### License & Copyright
 

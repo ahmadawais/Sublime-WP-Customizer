@@ -14,7 +14,7 @@ ${11:}
 <!-- Optional: Description to show in the menu -->
     <description>WP Customizer Add Panel</description>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	 <tabTrigger>npwpcustomizeraddpanel</tabTrigger>
+	 <tabTrigger>wpCustomizerAddPanel</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.php - variable.other.php</scope>
 </snippet>

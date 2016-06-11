@@ -11,7 +11,7 @@ ${4:}
 <!-- Optional: Description to show in the menu -->
     <description>WP Customizer postMessage JS Basic</description>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	 <tabTrigger>npwpcustomizerpostMessageJSbasic</tabTrigger>
+	 <tabTrigger>wpCustomizerPostMessageJSBasic</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.js - variable.other.js</scope>
 </snippet>
