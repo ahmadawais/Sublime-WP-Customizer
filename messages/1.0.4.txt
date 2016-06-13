@@ -1,9 +1,0 @@
-# Sublime-WP-Customizer
-=======================
-
-## Version 1.0.4
-
-- UPDATE: ReadMe updated
-- FIX: Add Section Tab trigger
-- NEW: Package Control Messages
-

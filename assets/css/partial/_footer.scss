@@ -1,0 +1,58 @@
+/* ----------------------------------------------------------------------------
+ * Fotter
+ * ------------------------------------------------------------------------- */
+
+footer {
+	display: flex;
+	max-width: 100%;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+
+	margin: 3rem auto;
+	font-size: 1rem;
+	line-height: 3;
+
+
+	p {
+		font-weight: 300;
+		font-size: 1rem;
+		line-height: 3;
+		text-align: center;
+
+		span {
+			font-size: 1rem;
+			line-height: 3;
+			background: $wrgba;
+			padding: 0.75rem;
+
+			:hover {
+				-webkit-transition: all 0.4s ease;
+				   -moz-transition: all 0.4s ease;
+				    -ms-transition: all 0.4s ease;
+				     -o-transition: all 0.4s ease;
+				        transition: all 0.4s ease;
+				background: $gr;
+			}
+
+		}
+
+		a {
+			font-size: 1rem;
+			line-height: 3;
+			color: $w;
+			border-bottom: 1px solid;
+
+			:hover {
+				-webkit-transition: all 0.4s ease;
+				   -moz-transition: all 0.4s ease;
+				    -ms-transition: all 0.4s ease;
+				     -o-transition: all 0.4s ease;
+				        transition: all 0.4s ease;
+				color: $w;
+				padding: 0.75rem;
+			}
+		}
+	}
+}

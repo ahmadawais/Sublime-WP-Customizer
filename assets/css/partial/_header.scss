@@ -1,0 +1,58 @@
+/* ----------------------------------------------------------------------------
+ * Header
+ * ------------------------------------------------------------------------- */
+.wpc_header{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.wpc_h_upper {
+	@include r(240)  { margin: 0 0 1.5rem 0;  }
+	@include r(320)  { margin: 0 0 1.5rem 0;  }
+	@include r(480)  { margin: 0 0 1.5rem 0;  }
+	@include r(768)  { margin: 0 0 3rem 0;  }
+	@include r(1024) { margin: 0 0 3rem 0;  }
+	@include r(1140) { margin: 0 0 3rem 0;  }
+	@include r(1280) { margin: 0 0 3rem 0;  }
+
+	h1 {
+		font-family: $wpc_font_primary;
+		font-size: 4.5vw;
+		letter-spacing: 1px;
+		color: lighten($wp-blue, 25%);
+		text-align: center;
+
+		@include r(240)  { text-shadow: 2px 2px 0 rgba(0,0,0,0.3);  }
+		@include r(320)  { text-shadow: 2px 2px 0 rgba(0,0,0,0.3);  }
+		@include r(480)  { text-shadow: 2px 2px 0 rgba(0,0,0,0.3);  }
+		@include r(768)  { text-shadow: 5px 5px 0 rgba(0,0,0,0.3);  }
+		@include r(1024) { text-shadow: 5px 5px 0 rgba(0,0,0,0.3);  }
+		@include r(1140) { text-shadow: 5px 5px 0 rgba(0,0,0,0.3);  }
+		@include r(1280) { text-shadow: 5px 5px 0 rgba(0,0,0,0.3);  }
+
+
+		span {
+			color: $w;
+		}
+	}
+
+	h3 {
+		font-family: $wpc_font_secondary;
+		font-weight: 300;
+		font-size: 1.5rem;
+		font-size: 3.5vw;
+		color: $w;
+		text-align: center;
+		margin: 0.7rem 0;
+	}
+}
+
+.wpc_h_lower {
+	.wpc_h_img {
+		width: 70vw;
+		height: auto;
+		overflow: hidden;
+	}
+}

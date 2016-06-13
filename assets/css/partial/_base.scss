@@ -1,0 +1,66 @@
+ /* ----------------------------------------------------------------------------
+ * Base
+ * ------------------------------------------------------------------------- */
+ // Base file for default font sizes.
+
+ p, a {
+ 	font: 300 1.6rem/1.2 $wpc_font_secondary;
+
+     @include r(320)  { font: 300 1.4rem/1.2 $wpc_font_secondary; }
+     @include r(480)  { font: 300 1.5rem/1.2 $wpc_font_secondary; }
+     @include r(768)  { font: 300 1.6rem/1.2 $wpc_font_secondary; }
+     @include r(1024) { font: 300 1.6rem/1.2 $wpc_font_secondary; }
+     @include r(1140) { font: 300 1.6rem/1.2 $wpc_font_secondary; }
+     @include r(1280) { font: 300 1.6rem/1.2 $wpc_font_secondary; }
+ }
+
+ // Typesetting variables. Edit these!
+ $baseFontSize:16; // in pixels. This would result in 22px on desktop
+ $baseLineHeight:2; // how large the line height is as a multiple of font size
+ $leading:$baseLineHeight * 1rem;
+ // Rate of growth for headings
+ // I actually like this to be slightly smaller then the leading. Makes for tight headings.
+ $scale:1.8;
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+     /* Change heading typefaces here */
+     font-family: $wpc_font_secondary;
+     font-weight: 700;
+     margin-top: $leading;
+     margin-bottom: 0;
+     line-height: 1.2;
+ }
+ h1 {
+     font-size: 3 * $scale * 1rem;
+     margin-top: 2 * $leading;
+ }
+ h2 {
+     font-size: 2 * $scale * 1rem;
+     margin-top: 2 * $leading;
+ }
+ h3 {
+     font-size: 1 * $scale * 1rem;
+ }
+ h4 {
+     font-size: $scale / 1.1 * 1rem;
+ }
+ h5 {
+     font-size: $scale / 1.3 * 1rem;
+ }
+ h6 {
+     font-size: $scale / 1.5 * 1rem;
+ }
+
+
+ .wpc_display--none {
+ 	display: none;
+ }
+ .wpc_display--table {
+ 	display: table;
+ }
+

@@ -1,0 +1,125 @@
+/* ----------------------------------------------------------------------------
+ * Info Section
+ * ------------------------------------------------------------------------- */
+
+.wpc_section_info {
+	display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	max-width: 100%;
+	width: 100%;
+
+	form {
+		max-width: 100%;
+		width: 100%;
+	}
+}
+
+.wpc_info {
+    flex: 100%;
+	margin: 0 auto 3rem auto;
+	order: 2;
+
+    p {
+    	font-weight: 300;
+    	text-align: center;
+    	@include r(240)  { text-align: left;  }
+    	@include r(320)  { text-align: left;  }
+    	@include r(480)  { text-align: left;  }
+    	@include r(768)  { text-align: center;  }
+    	@include r(1024) { text-align: center;  }
+    	@include r(1140) { text-align: center;  }
+    	@include r(1280) { text-align: center;  }
+    	margin: 0 auto;
+    }
+}
+.wpc_sub {
+	flex: 100%;
+	order: 1;
+}
+
+.wpc_fields {
+	display: flex;
+    flex-direction: row;
+	justify-content: center;
+	align-items: baseline;
+	align-content: center;
+	flex-wrap: wrap;
+
+	@include r(240)  { flex-direction: column; }
+	@include r(320)  { flex-direction: column; }
+	@include r(480)  { flex-direction: column; }
+	@include r(768)  { flex-direction: row; }
+	@include r(1024) { flex-direction: row; }
+	@include r(1140) { flex-direction: row; }
+	@include r(1280) { flex-direction: row; }
+
+	.wpc_field {
+	    input {
+			width: 100%;
+
+	    	font-size: 1rem;
+
+	    	@include r(240)  { padding: 0.75rem 1.5rem; }
+	    	@include r(320)  { padding: 0.75rem 1.5rem; }
+	    	@include r(480)  { padding: 0.75rem 1.5rem; }
+	    	@include r(768)  { padding: 1.5rem 3rem; }
+	    	@include r(1024) { padding: 1.5rem 3rem; }
+	    	@include r(1140) { padding: 1.5rem 3rem; }
+	    	@include r(1280) { padding: 1.5rem 3rem; }
+	    }
+	    .wpc_email_input {
+	    	color: $wp-grey;
+	    }
+	    .wpc_submit_input {
+	    	text-transform: uppercase;
+	    }
+	}
+	.wpc_email {
+		background: $w;
+        flex: 3 1 auto;
+        @include r(240)  { flex: 1 1 auto; width: 100%; }
+        @include r(320)  { flex: 1 1 auto; width: 100%; }
+        @include r(480)  { flex: 1 1 auto; width: 100%; }
+        @include r(768)  { flex: 3 3 auto; width: auto; }
+        @include r(1024) { flex: 3 3 auto; width: auto; }
+        @include r(1140) { flex: 3 3 auto; width: auto; }
+        @include r(1280) { flex: 3 3 auto; width: auto; }
+	}
+	.wpc_submit {
+        flex: 0 1 auto;
+        @include r(240)  { flex: 1 1 auto; width: 100%; }
+        @include r(320)  { flex: 1 1 auto; width: 100%; }
+        @include r(480)  { flex: 1 1 auto; width: 100%; }
+        @include r(768)  { flex: 1 1 auto; width: auto; }
+        @include r(1024) { flex: 1 1 auto; width: auto; }
+        @include r(1140) { flex: 1 1 auto; width: auto; }
+        @include r(1280) { flex: 1 1 auto; width: auto; }
+		background: $gr;
+	}
+}
+
+.wpc_nospam {
+	font-size: 1rem;
+	@include r(240)  { font-size: 0.7rem;  }
+	@include r(320)  { font-size: 0.7rem;  }
+	@include r(480)  { font-size: 0.7rem;  }
+	@include r(768)  { font-size: 1rem;  }
+	@include r(1024) { font-size: 1rem;  }
+	@include r(1140) { font-size: 1rem;  }
+	@include r(1280) { font-size: 1rem;  }
+	font-weight: 300;
+	margin: 0.75rem auto;
+	color: $w;
+	line-height: 2;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	span {
+	}
+}
