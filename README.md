@@ -102,7 +102,7 @@ $ git clone https://github.com/ahmadawais/Sublime-WP-Customizer.git WP-Customize
 
 #### Version 1.0.4
 
-- UPDATE: ReadMe updated- 
+- UPDATE: ReadMe updated
 - FIX: Add Section Tab trigger
 
 #### Version 1.0.3
