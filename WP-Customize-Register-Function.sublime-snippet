@@ -8,7 +8,7 @@ if ( ! function_exists( '${1:PREFIX}_customize_${2:name_panel_section}' ) ) {
 	/**
 	 * Customize: ${3:Panel}.
 	 *
-	 * ${4:Customize function.}
+	 * ${4:Customize function}.
 	 *
 	 * @param  object WP_Customize $wp_customize Instance of the WP_Customize_Manager class.
 	 * @since  ${5:1.0.0}
