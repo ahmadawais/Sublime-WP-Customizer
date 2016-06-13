@@ -8,7 +8,7 @@ Sublime snippets for WordPress Customizer.
 ```
 WordPress Version: 4.6.0
 Snippets: 09
-Version: 1.0.3
+Version: 1.0.4
 ```
 
 ## Snippets
@@ -100,9 +100,14 @@ $ git clone https://github.com/ahmadawais/Sublime-WP-Customizer.git WP-Customize
 
 ### Changelog
 
+#### Version 1.0.4
+
+- UPDATE: ReadMe updated- 
+- FIX: Add Section Tab trigger
+
 #### Version 1.0.3
 
-- UUPDATE: ReadMe updated
+- UPDATE: ReadMe updated
 - NEW: Package Control Messages
 
 #### Version 1.0.2

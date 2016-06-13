@@ -1,7 +1,9 @@
 <?php
 /**
- * Test PHP File.
+ * WP Customizer
  *
- * @package WP-Customizer
+ * Sublime WP Customizer Test.
+ *
+ * @package wpc
  */
 
