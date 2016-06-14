@@ -29,8 +29,8 @@
  * Edit the variables as per your project requirements.
  */
 // Project related.
-var project                 = 'sublime-wpc'; // Project Name.
-var projectURL              = 'sublime-wpc.dev'; // Project URL. Could be something like localhost:8888.
+var project                 = 'sublime-wp-customizer'; // Project Name.
+var projectURL              = 'sublime-wp-customizer.dev'; // Project URL. Could be something like localhost:8888.
 var productURL              = './'; // Theme/Plugin URL. Leave it like it is, since our gulpfile.js lives in the root folder.
 
 // Translation related.
