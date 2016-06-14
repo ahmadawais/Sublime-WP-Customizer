@@ -6,6 +6,9 @@ footer {
 	display: flex;
 	max-width: 100%;
 	width: 100%;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	align-content: center;
@@ -18,12 +21,18 @@ footer {
 	p {
 		font-weight: 300;
 		font-size: 1rem;
-		line-height: 3;
+		line-height: 1.2;
 		text-align: center;
 
 		span {
-			font-size: 1rem;
-			line-height: 3;
+			@include r(240)  { font-size: 0.8rem; display: block;line-height: 2; }
+			@include r(320)  { font-size: 0.8rem; display: block;line-height: 1.8; }
+			@include r(480)  { font-size: 0.8rem; display: block;line-height: 1.8; }
+			@include r(768)  { font-size: 1rem; display: inline-block;line-height: 1.2; }
+			@include r(1024) { font-size: 1rem; display: inline-block;line-height: 1.2; }
+			@include r(1140) { font-size: 1rem; display: inline-block;line-height: 1.2; }
+			@include r(1280) { font-size: 1rem; display: inline-block;line-height: 1.2; }
+
 			background: $wrgba;
 			padding: 0.75rem;
 
@@ -39,8 +48,14 @@ footer {
 		}
 
 		a {
-			font-size: 1rem;
-			line-height: 3;
+			@include r(240)  { font-size: 1rem !important;  }
+			@include r(320)  { font-size: 1rem !important;  }
+			@include r(480)  { font-size: 1rem !important;  }
+			@include r(768)  { font-size: 1rem !important;  }
+			@include r(1024) { font-size: 1rem !important;  }
+			@include r(1140) { font-size: 1rem !important;  }
+			@include r(1280) { font-size: 1rem !important;  }
+			line-height: 1.2;
 			color: $w;
 			border-bottom: 1px solid;
 
@@ -55,4 +70,9 @@ footer {
 			}
 		}
 	}
+}
+
+p.wpc_credit {
+	line-height: 3;
+	margin: 2rem 0;
 }

@@ -97,8 +97,8 @@ body{font:400 11px/1.4 sans-serif;color:#fff;margin:0;background:#fff;height:100
 .clear:after{clear:both}
 .clear{*zoom:1}
 img{max-width:100%;vertical-align:bottom;height:auto}
-a{color:#444;text-decoration:none}
-a:hover{color:#444}
+a{color:#fff;text-decoration:none}
+a:hover{color:#fff}
 a:focus{outline:0}
 a:hover,a:active{outline:0}
 input:focus{outline:0;border:1px solid #292929}
@@ -132,12 +132,13 @@ h6{font-size:1.2rem}
 .wpc_fields .wpc_email{background:#fff;-webkit-box-flex:3;-webkit-flex:3 1 auto;-ms-flex:3 1 auto;flex:3 1 auto}
 .wpc_fields .wpc_submit{-webkit-box-flex:0;-webkit-flex:0 1 auto;-ms-flex:0 1 auto;flex:0 1 auto;background:goldenrod}
 .wpc_nospam{font-size:1rem;font-weight:300;margin:.75rem auto;color:#fff;line-height:2;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center}
-footer{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;max-width:100%;width:100%;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-align-content:center;-ms-flex-line-pack:center;align-content:center;margin:3rem auto;font-size:1rem;line-height:3}
-footer p{font-weight:300;font-size:1rem;line-height:3;text-align:center}
-footer p span{font-size:1rem;line-height:3;background:rgba(255,255,255,0.22);padding:.75rem}
+footer{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;max-width:100%;width:100%;-webkit-flex-direction:column;-ms-flex-direction:column;-webkit-box-orient:vertical;-webkit-box-direction:normal;flex-direction:column;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-align-content:center;-ms-flex-line-pack:center;align-content:center;margin:3rem auto;font-size:1rem;line-height:3}
+footer p{font-weight:300;font-size:1rem;line-height:1.2;text-align:center}
+footer p span{background:rgba(255,255,255,0.22);padding:.75rem}
 footer p span :hover{-webkit-transition:all .4s ease;transition:all .4s ease;background:goldenrod}
-footer p a{font-size:1rem;line-height:3;color:#fff;border-bottom:1px solid}
+footer p a{line-height:1.2;color:#fff;border-bottom:1px solid}
 footer p a :hover{-webkit-transition:all .4s ease;transition:all .4s ease;color:#fff;padding:.75rem}
+p.wpc_credit{line-height:3;margin:2rem 0}
 @media(min-width:240px){.wpc_wrap{padding:1.5rem}
 .wpc_h_upper{margin:0 0 1.5rem 0}
 .wpc_h_upper h1{text-shadow:2px 2px 0 rgba(0,0,0,0.3)}
@@ -147,6 +148,8 @@ footer p a :hover{-webkit-transition:all .4s ease;transition:all .4s ease;color:
 .wpc_fields .wpc_email{-webkit-box-flex:1;-webkit-flex:1 1 auto;-ms-flex:1 1 auto;flex:1 1 auto;width:100%}
 .wpc_fields .wpc_submit{-webkit-box-flex:1;-webkit-flex:1 1 auto;-ms-flex:1 1 auto;flex:1 1 auto;width:100%}
 .wpc_nospam{font-size:.7rem}
+footer p span{font-size:.8rem;display:block;line-height:2}
+footer p a{font-size:1rem !important}
 }@media(min-width:320px){.wpc_wrap{padding:1.5rem}
 p,a{font:300 1.4rem/1.2 "Lato",sans-serif}
 .wpc_h_upper{margin:0 0 1.5rem 0}
@@ -157,6 +160,8 @@ p,a{font:300 1.4rem/1.2 "Lato",sans-serif}
 .wpc_fields .wpc_email{-webkit-box-flex:1;-webkit-flex:1 1 auto;-ms-flex:1 1 auto;flex:1 1 auto;width:100%}
 .wpc_fields .wpc_submit{-webkit-box-flex:1;-webkit-flex:1 1 auto;-ms-flex:1 1 auto;flex:1 1 auto;width:100%}
 .wpc_nospam{font-size:.7rem}
+footer p span{font-size:.8rem;display:block;line-height:1.8}
+footer p a{font-size:1rem !important}
 }@media(min-width:480px){.wpc_wrap{padding:1.5rem}
 p,a{font:300 1.5rem/1.2 "Lato",sans-serif}
 .wpc_h_upper{margin:0 0 1.5rem 0}
@@ -167,6 +172,8 @@ p,a{font:300 1.5rem/1.2 "Lato",sans-serif}
 .wpc_fields .wpc_email{-webkit-box-flex:1;-webkit-flex:1 1 auto;-ms-flex:1 1 auto;flex:1 1 auto;width:100%}
 .wpc_fields .wpc_submit{-webkit-box-flex:1;-webkit-flex:1 1 auto;-ms-flex:1 1 auto;flex:1 1 auto;width:100%}
 .wpc_nospam{font-size:.7rem}
+footer p span{font-size:.8rem;display:block;line-height:1.8}
+footer p a{font-size:1rem !important}
 }@media(min-width:768px){.wpc_wrap{padding:1.5rem 3rem}
 p,a{font:300 1.6rem/1.2 "Lato",sans-serif}
 .wpc_h_upper{margin:0 0 3rem 0}
@@ -177,6 +184,8 @@ p,a{font:300 1.6rem/1.2 "Lato",sans-serif}
 .wpc_fields .wpc_email{-webkit-box-flex:3;-webkit-flex:3 3 auto;-ms-flex:3 3 auto;flex:3 3 auto;width:auto}
 .wpc_fields .wpc_submit{-webkit-box-flex:1;-webkit-flex:1 1 auto;-ms-flex:1 1 auto;flex:1 1 auto;width:auto}
 .wpc_nospam{font-size:1rem}
+footer p span{font-size:1rem;display:inline-block;line-height:1.2}
+footer p a{font-size:1rem !important}
 }@media(min-width:1024px){.wpc_wrap{padding:1.5rem 7rem}
 p,a{font:300 1.6rem/1.2 "Lato",sans-serif}
 .wpc_h_upper{margin:0 0 3rem 0}
@@ -187,6 +196,8 @@ p,a{font:300 1.6rem/1.2 "Lato",sans-serif}
 .wpc_fields .wpc_email{-webkit-box-flex:3;-webkit-flex:3 3 auto;-ms-flex:3 3 auto;flex:3 3 auto;width:auto}
 .wpc_fields .wpc_submit{-webkit-box-flex:1;-webkit-flex:1 1 auto;-ms-flex:1 1 auto;flex:1 1 auto;width:auto}
 .wpc_nospam{font-size:1rem}
+footer p span{font-size:1rem;display:inline-block;line-height:1.2}
+footer p a{font-size:1rem !important}
 }@media(min-width:1140px){.wpc_wrap{padding:1.5rem 9rem}
 p,a{font:300 1.6rem/1.2 "Lato",sans-serif}
 .wpc_h_upper{margin:0 0 3rem 0}
@@ -197,6 +208,8 @@ p,a{font:300 1.6rem/1.2 "Lato",sans-serif}
 .wpc_fields .wpc_email{-webkit-box-flex:3;-webkit-flex:3 3 auto;-ms-flex:3 3 auto;flex:3 3 auto;width:auto}
 .wpc_fields .wpc_submit{-webkit-box-flex:1;-webkit-flex:1 1 auto;-ms-flex:1 1 auto;flex:1 1 auto;width:auto}
 .wpc_nospam{font-size:1rem}
+footer p span{font-size:1rem;display:inline-block;line-height:1.2}
+footer p a{font-size:1rem !important}
 }@media(min-width:1280px){.wpc_wrap{padding:1.5rem 9rem}
 p,a{font:300 1.6rem/1.2 "Lato",sans-serif}
 .wpc_h_upper{margin:0 0 3rem 0}
@@ -207,4 +220,6 @@ p,a{font:300 1.6rem/1.2 "Lato",sans-serif}
 .wpc_fields .wpc_email{-webkit-box-flex:3;-webkit-flex:3 3 auto;-ms-flex:3 3 auto;flex:3 3 auto;width:auto}
 .wpc_fields .wpc_submit{-webkit-box-flex:1;-webkit-flex:1 1 auto;-ms-flex:1 1 auto;flex:1 1 auto;width:auto}
 .wpc_nospam{font-size:1rem}
+footer p span{font-size:1rem;display:inline-block;line-height:1.2}
+footer p a{font-size:1rem !important}
 }
