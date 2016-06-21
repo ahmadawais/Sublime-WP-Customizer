@@ -4,7 +4,7 @@
 \$wp_customize->add_panel( '${2:prefix}_panel_${3:id}', array(
 	'priority'       => ${4:160},
 	'title'          => __( '${5:Panel Title}', '${6:TEXT_DOMAIN}' ),
-	'description'    => __( '${7:Panle Description.}', '${6:TEXT_DOMAIN}' ),
+	'description'    => __( '${7:Panel Description.}', '${6:TEXT_DOMAIN}' ),
 	'capability'     => '${8:edit_theme_options}',
 	${9:'active_callback'=> '', // is_front_page}
 	${10:'theme_supports' => '',}
