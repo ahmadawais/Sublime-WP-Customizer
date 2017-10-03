@@ -35,11 +35,11 @@ Version: 1.0.4
 
 ### Tab Triggers
 
-You can do a fuzzy search inside PHP or JS file with initials of the snippets' names. E.g. To add a `WP Customizer Add Pannel` you can just type `wpcap` and Sublime will suggest the snippet. If that doesn't happen read the optional tip below. You can also open Package Control's Command Pallet: `Command+Shift+P`  on Mac `Ctrl+Shift+P` on Windows or Linux and search for these snippets.
+You can do a fuzzy search inside PHP or JS file with initials of the snippets' names. E.g. To add a `WP Customizer Add Pannel` you can just type `wpcap` and Sublime will suggest the snippet. If that doesn't happen read the optional tip below. You can also open Package Control's Command Pallet: <kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> on Mac <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> on Windows or Linux and search for these snippets.
 
 ### How to Use the Snippets?
 
-WP Customize snippets are meant to bring ease to your workflow. All you have to do is select a snippet and then press `tab` button to go from one editable area to another. E.g.
+WP Customize snippets are meant to bring ease to your workflow. All you have to do is select a snippet and then press <kbd>Tab</kbd> button to go from one editable area to another. E.g.
 
 ![WP Customizer Snippets](https://raw.githubusercontent.com/ahmadawais/Sublime-WP-Customizer/master/the.gif)
 
@@ -58,9 +58,9 @@ Sublime won't autocomplete PHP files when there is no closing `?>` tags , so go 
 The preferred method of installation is via Package Control.
 
 1. [Install Package Control](https://packagecontrol.io/installation).
-2. From inside the Sublime Text, open Package Control's Command Pallet: `Command+Shift+P`  on Mac `Ctrl+Shift+P` on Windows or Linux.
-3. Type `Install Package` and hit `Return or Enter`. A list of available packages will be displayed.
-4. Type `WordPress Customizer` and hit `Return or Enter`. The package will be downloaded to the appropriate directory (You can watch the progress bar in the left bottom bar of Sublime).
+2. From inside the Sublime Text, open Package Control's Command Pallet: <kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> on Mac <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> on Windows or Linux.
+3. Type `Install Package` and hit <kbd>Return</kbd> or <kbd>Enter</kbd>. A list of available packages will be displayed.
+4. Type `WordPress Customizer` and hit <kbd>Return</kbd> or <kbd>Enter</kbd>. The package will be downloaded to the appropriate directory (You can watch the progress bar in the left bottom bar of Sublime).
 5. Restart Sublime Text to complete installation. The features listed above should now be available.
 
 
