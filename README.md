@@ -1,7 +1,31 @@
+
+<table width='100%'>
+    <tr>
+        <td align='left' width='100%' colspan='2'>
+            <strong>Sublime-WP-Customizer-Snippets</strong><br />
+            Sublime Package of snippets for WordPress Customizer.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            A FOSS (Free & Open Source Software) project. Maintained by <a href='https://github.com/ahmadawais'>@AhmadAwais</a>.
+        </td>
+        <td align='center'>
+            <a href='https://AhmadAwais.com/'>
+                <img src='https://i.imgur.com/Asg4d3k.png' width='100' />
+            </a>
+        </td>
+    </tr>
+</table>
+
 # Sublime-WP-Customizer
-[![GPL](https://img.shields.io/badge/License-GPL-lightgrey.svg?style=flat-square)](http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html) [![Package Control](https://img.shields.io/packagecontrol/dt/WordPress%20Customizer.svg?style=flat-square&maxAge=3600)](https://packagecontrol.io/packages/WordPress%20Customizer) [![GitHub release](https://img.shields.io/github/release/ahmadawais/Sublime-WP-Customizer.svg?style=flat-square)](https://github.com/ahmadawais/Sublime-WP-Customizer/releases)
+
+[![Sublime-WP-Customizer](https://img.shields.io/badge/%F0%9F%94%A5%20Support%20Sublime%20Customizer-%E2%93%A6-brightgreen.svg?style=flat-square)](https://pay.paddle.com/checkout/515568) [![GPL](https://img.shields.io/badge/License-GPL-lightgrey.svg?style=flat-square)](http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html) [![Package Control](https://img.shields.io/packagecontrol/dt/WordPress%20Customizer.svg?style=flat-square&maxAge=3600)](https://packagecontrol.io/packages/WordPress%20Customizer) [![GitHub release](https://img.shields.io/github/release/ahmadawais/Sublime-WP-Customizer.svg?style=flat-square)](https://github.com/ahmadawais/Sublime-WP-Customizer/releases) [![](https://img.shields.io/wordpress/v/akismet.svg?maxAge=2592000&style=flat-square&label=WordPress)](https://github.com/ahmadawais/Sublime-WP-Customizer/) [![](https://img.shields.io/github/stars/ahmadawais/Sublime-WP-Customizer.svg?style=social&label=Star&maxAge=200&cache=buster)](https://github.com/ahmadawais/Sublime-WP-Customizer/stargazers)
+
+![WP Customizer Snippets](https://raw.githubusercontent.com/ahmadawais/Sublime-WP-Customizer/master/the.gif)
 
 Sublime snippets for WordPress Customizer. 
+
 
 ## General Information
 
