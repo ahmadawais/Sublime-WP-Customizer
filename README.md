@@ -18,16 +18,32 @@
     </tr>
 </table>
 
-# Sublime-WP-Customizer
+# ⚡️ Sublime-WP-Customizer
 
-[![Sublime-WP-Customizer](https://img.shields.io/badge/%F0%9F%94%A5%20Support%20Sublime%20Customizer-%E2%93%A6-brightgreen.svg?style=flat-square)](https://pay.paddle.com/checkout/515568) [![GPL](https://img.shields.io/badge/License-GPL-lightgrey.svg?style=flat-square)](http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html) [![Package Control](https://img.shields.io/packagecontrol/dt/WordPress%20Customizer.svg?style=flat-square&maxAge=3600)](https://packagecontrol.io/packages/WordPress%20Customizer) [![GitHub release](https://img.shields.io/github/release/ahmadawais/Sublime-WP-Customizer.svg?style=flat-square)](https://github.com/ahmadawais/Sublime-WP-Customizer/releases) [![](https://img.shields.io/wordpress/v/akismet.svg?maxAge=2592000&style=flat-square&label=WordPress)](https://github.com/ahmadawais/Sublime-WP-Customizer/) [![](https://img.shields.io/github/stars/ahmadawais/Sublime-WP-Customizer.svg?style=social&label=Star&maxAge=200&cache=buster)](https://github.com/ahmadawais/Sublime-WP-Customizer/stargazers)
+[![Sublime-WP-Customizer](https://img.shields.io/badge/%F0%9F%94%A5%20Support%20Sublime%20Customizer-%E2%93%A6-brightgreen.svg?style=flat-square)](https://pay.paddle.com/checkout/515568) [![GPL](https://img.shields.io/badge/License-GPL-lightgrey.svg?style=flat-square)](http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html) [![Package Control](https://img.shields.io/packagecontrol/dt/WordPress%20Customizer.svg?style=flat-square&maxAge=3600)](https://packagecontrol.io/packages/WordPress%20Customizer) [![GitHub release](https://img.shields.io/github/release/ahmadawais/Sublime-WP-Customizer.svg?style=flat-square)](https://github.com/ahmadawais/Sublime-WP-Customizer/releases) [![](https://img.shields.io/wordpress/v/akismet.svg?maxAge=2592000&style=flat-square&label=WordPress)](https://github.com/ahmadawais/Sublime-WP-Customizer/) [![Documentation](https://img.shields.io/badge/%20Documentation%20-%E2%86%92-brightgreen.svg?style=flat-square)](http://docs.wpcustomizer.xyz/) [![](https://img.shields.io/github/stars/ahmadawais/Sublime-WP-Customizer.svg?style=social&label=Star&maxAge=200&cache=buster)](https://github.com/ahmadawais/Sublime-WP-Customizer/stargazers)
 
 ![WP Customizer Snippets](https://raw.githubusercontent.com/ahmadawais/Sublime-WP-Customizer/master/the.gif)
 
 Sublime snippets for WordPress Customizer. 
 
+## ✅ Getting Started
 
-## General Information
+Read the [official documentation and snippet reference](http://docs.wpcustomizer.xyz/).
+1. [INTRODUCTION](http://docs.wpcustomizer.xyz/)
+2. [GETTING STARTED](http://docs.wpcustomizer.xyz/getting-started/)
+3. [SNIPPET REFERENCE](http://docs.wpcustomizer.xyz/snippet/)
+4. IMPLEMENTATION 
+	- [Adding a Register Function](http://docs.wpcustomizer.xyz/wordpress-customizer-snippets/add-register-function/)
+	- [Adding a Cutsomizer Panel](http://docs.wpcustomizer.xyz/wordpress-customizer-snippets/add-panel/)
+	- [Adding a Customizer Section](http://docs.wpcustomizer.xyz/wordpress-customizer-snippets/add-section/)
+	- [Adding a Customizer Setting](http://docs.wpcustomizer.xyz/wordpress-customizer-snippets/add-setting/)
+	- [Adding a Customizer Control](http://docs.wpcustomizer.xyz/wordpress-customizer-snippets/add-basic-control/)
+	- [Adding a Customizer Color](http://docs.wpcustomizer.xyz/wordpress-customizer-snippets/add-control-color/)
+	- [Adding a Customizer Image](http://docs.wpcustomizer.xyz/wordpress-customizer-snippets/add-control-image/)
+	- [Adding a Customizer Upload](http://docs.wpcustomizer.xyz/wordpress-customizer-snippets/add-file-upload/)
+
+
+## → General Information
 
 ```
 WordPress Version: 4.6.0
@@ -35,7 +51,7 @@ Snippets: 09
 Version: 1.0.4
 ```
 
-## Snippets
+## 🛡 Snippets
 
 1. Snippet: WP Customize Add Pannel 
     * Tab trigger: `wpCustomizerAddPanel`
@@ -57,17 +73,17 @@ Version: 1.0.4
     * Tab trigger: `wpCustomizerRegisterFunction`
 
 
-### Tab Triggers
+### 🤞 Tab Triggers
 
 You can do a fuzzy search inside PHP or JS file with initials of the snippets' names. E.g. To add a `WP Customizer Add Pannel` you can just type `wpcap` and Sublime will suggest the snippet. If that doesn't happen read the optional tip below. You can also open Package Control's Command Pallet: <kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> on Mac <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> on Windows or Linux and search for these snippets.
 
-### How to Use the Snippets?
+### ⚙ How to Use the Snippets?
 
 WP Customize snippets are meant to bring ease to your workflow. All you have to do is select a snippet and then press <kbd>Tab</kbd> button to go from one editable area to another. E.g.
 
 ![WP Customizer Snippets](https://raw.githubusercontent.com/ahmadawais/Sublime-WP-Customizer/master/the.gif)
 
-### Optional Tip
+### ▶︎ Optional Tip
 
 Sublime won't autocomplete PHP files when there is no closing `?>` tags , so go to `Sublime Text > Preferences > Settings-User` add this snippet:
 
@@ -75,9 +91,9 @@ Sublime won't autocomplete PHP files when there is no closing `?>` tags , so go 
 "auto_complete_selector": "source, text",
 ```
 
-## Install Instructions
+## 👍 Installation Instructions
 
-### Package Control installation
+### 🤘 Package Control installation
 
 The preferred method of installation is via Package Control.
 
@@ -88,7 +104,7 @@ The preferred method of installation is via Package Control.
 5. Restart Sublime Text to complete installation. The features listed above should now be available.
 
 
-### Manual Installation
+### 🤔 Manual Installation
 
 1. Close Sublime Text.
 2. Download or clone this repository to a directory named `WordPress-Customizer` in the Sublime Text Packages directory for your platform:
@@ -102,7 +118,7 @@ The preferred method of installation is via Package Control.
         - **Linux**: `git clone https://github.com/ahmadawais/Sublime-WP-Customizer.git ~/.config/sublime-text-2/Packages/WordPress-Customizer`
 3. Restart Sublime Text to complete installation. The features listed above should now be available.
 
-### Understand manual installation.
+### 🎩 Understand manual installation
 You can manually install by cloning this repository into your Sublime Text `Packages` directory. Get to it quickly from within Sublime via the menu at `Sublime Text > Preferences > Browse Packages`.
 So, browse the `Packages` directory in terminal and clone this repository inside it by running the following command.
 
@@ -122,7 +138,7 @@ $ git clone https://github.com/ahmadawais/Sublime-WP-Customizer.git WP-Customize
 - Sublime Text 2 `C:\Users\%username%\AppData\Roaming\Sublime Text 2\Packages`
 - Sublime Text 3 `C:\Users\%username%\AppData\Roaming\Sublime Text 3\Packages`
 
-### Changelog
+### 📣 Changelog
 
 #### Version 1.0.4
 
